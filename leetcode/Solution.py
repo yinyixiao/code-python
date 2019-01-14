@@ -4,7 +4,9 @@ class ListNode(object):
         self.val = x
         self.next = None
 
-
+re = ListNode(0)
+r = re
+print(r)
 # 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
 class Solution:
     def twoSum(self, nums, target):
@@ -61,7 +63,6 @@ class Solution:
             if i not in test:
                 test += i
                 number += 1
-
             else:
                 if number >= max_number:
                     max_number = number
@@ -74,4 +75,4 @@ class Solution:
 
 
 s = Solution()
-print(s.find_longest_no_repeat_substr("abcabcbb"))
+print(s.lengthOfLongestSubstring("abcabcbb"))
