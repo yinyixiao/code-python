@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="975135ef-4a03-4c6b-b3f5-4cc916ca61e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/code-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/code-python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/Solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python知识点" beforeDir="false" afterPath="$PROJECT_DIR$/python知识点" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python知识点">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            <state relative-caret-position="546">
+              <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -94,12 +92,12 @@
       <list>
         <option value="$PROJECT_DIR$/Solution.py" />
         <option value="$PROJECT_DIR$/001python内存管理" />
-        <option value="$PROJECT_DIR$/python知识点" />
         <option value="$PROJECT_DIR$/leetcode/Solution.py" />
         <option value="$PROJECT_DIR$/leetcode/menu" />
         <option value="$PROJECT_DIR$/leetcode/eatwhat.py" />
         <option value="$PROJECT_DIR$/leetcode/sgame.py" />
         <option value="$PROJECT_DIR$/leetcode/hello.py" />
+        <option value="$PROJECT_DIR$/python知识点" />
       </list>
     </option>
   </component>
@@ -298,12 +296,12 @@
       <workItem from="1546930144733" duration="6746000" />
       <workItem from="1547083852662" duration="17040000" />
       <workItem from="1547188842872" duration="3866000" />
-      <workItem from="1547433666025" duration="628000" />
+      <workItem from="1547433666025" duration="2309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47168000" />
+    <option name="totallyTimeSpent" value="48849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -323,7 +321,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -380,8 +378,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python知识点">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        <state relative-caret-position="546">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
         </state>
       </provider>
     </entry>

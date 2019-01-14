@@ -13,3 +13,40 @@ list [1,2,3]  dict {'Michael': 95, 'Bob': 75, 'Tracy': 85}  set {1, 2, 3}
         所以，dict是用空间来换取时间的一种方法。
 Set:
         set和dict类似，也是一组key的集合，但不存储value。由于key不能重复，所以，在set中，没有重复的key。
+迭代：
+        给定一个list或tuple，用for循环来遍历它，称为迭代。
+
+列表生成式：
+        用来创建list的生成式。例如： [x * x for x in range(1,11)]
+生成器：
+        列表元素通过算法推算出来，变循环，边计算，generator。
+        例如： g = (x * x for x in range(1,11))
+              def fib(max):
+                n, a, b = 0, 0, 1
+                while n < max:
+                    yield b
+                    a, b = b, a+b
+                    n = n + 1
+                return "done"
+生成器generator和普通函数的区别：
+        普通函数顺序执行，遇到return返回。generator调用next()执行，遇到yield返回，再次执行从上次返回的yield处继续执行。
+
+迭代器：
+        可以被next()函数调用并不断返回下一个值的对象称为迭代器：Iterator
+map(f,L):
+        map将传入的函数依次作用于序列的每一个元素，并将结果返回作为新的Iterator
+
+reduce(f,[x1,x2,x3,x4]):
+        reduce把结果继续和序列的下一个元素做累积计算。
+filter(f,L):
+        filter和map类似，也接受一个参数依次作用于每一个序列。和map不同的是，filter将传入的函数依次作用于每一个元素，并根据返回结果是True还是False决定是保留还是丢弃该元素。
+匿名函数：
+        lambda
+装饰器：
+        在代码执行期间动态的增加功能的方式成为装饰器。
+        装饰器原理:将源函数当作参数传入一个新函数中，新函数返回一个wraps函数，warps函数在源函数的基础上添加了一些功能而已
+作用域：
+        L(local)：局部作用域
+        E(endosing):嵌套作用域
+        G(global)：全局作用域
+        B(built-in)：内置作用域
