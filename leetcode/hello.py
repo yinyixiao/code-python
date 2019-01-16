@@ -34,3 +34,4 @@ def createCounter():
         n += 1
         return n
     return counter
+createCounter()
