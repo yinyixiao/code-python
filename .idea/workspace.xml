@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="975135ef-4a03-4c6b-b3f5-4cc916ca61e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python知识点" beforeDir="false" afterPath="$PROJECT_DIR$/python知识点" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/code_python$animal.coverage" NAME="animal Coverage Results" MODIFIED="1547451779802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
     <SUITE FILE_PATH="coverage/code_python$nslook.coverage" NAME="nslook Coverage Results" MODIFIED="1547620181175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mymultiprocessing" />
+    <SUITE FILE_PATH="coverage/code_python$test.coverage" NAME="test Coverage Results" MODIFIED="1547792998247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myre" />
     <SUITE FILE_PATH="coverage/code_python$Student2.coverage" NAME="Student2 Coverage Results" MODIFIED="1547456533315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
     <SUITE FILE_PATH="coverage/code_python$mylist.coverage" NAME="mylist Coverage Results" MODIFIED="1547534194689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
     <SUITE FILE_PATH="coverage/code_python$err_raise.coverage" NAME="err_raise Coverage Results" MODIFIED="1547539224671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exception" />
@@ -56,15 +56,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IOtest/readfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/hello.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="377">
@@ -91,11 +82,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/multithread/multicpu.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/myre/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -188,6 +188,7 @@
         <option value="$PROJECT_DIR$/multithread/mythread.py" />
         <option value="$PROJECT_DIR$/multithread/mylock.py" />
         <option value="$PROJECT_DIR$/multithread/multicpu.py" />
+        <option value="$PROJECT_DIR$/myre/test.py" />
       </list>
     </option>
   </component>
@@ -216,7 +217,7 @@
             <path>
               <item name="code-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="code-python" type="462c0819:PsiDirectoryNode" />
-              <item name="multithread" type="462c0819:PsiDirectoryNode" />
+              <item name="myre" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.multicpu">
+  <component name="RunManager" selected="Python.test">
     <configuration name="multicpu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -335,7 +336,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nslook" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="code-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,12 +344,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mymultiprocessing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myre" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mymultiprocessing/nslook.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myre/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -359,11 +360,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.multicpu" />
         <item itemvalue="Python.mylock" />
         <item itemvalue="Python.mythread" />
         <item itemvalue="Python.myprocess" />
-        <item itemvalue="Python.nslook" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +387,7 @@
       <workItem from="1546930144733" duration="6746000" />
       <workItem from="1547083852662" duration="17040000" />
       <workItem from="1547188842872" duration="3866000" />
-      <workItem from="1547433666025" duration="37201000" />
+      <workItem from="1547433666025" duration="46845000" />
     </task>
     <servers />
   </component>
@@ -396,18 +397,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83741000" />
+    <option name="totallyTimeSpent" value="93385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29284164" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29284164" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -637,7 +638,14 @@
     <entry file="file://$PROJECT_DIR$/multithread/multicpu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myre/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
